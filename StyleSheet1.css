@@ -1,0 +1,28 @@
+﻿table {
+    border: 1px solid black;
+    border-collapse:collapse;
+    width:400px;
+}
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align:center;
+    width:200px;
+}
+tr:nth-child(odd) {
+    background-color: lightsalmon;
+}
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+#dropfile {
+    border: 1px solid black;
+    background-color: lightslategrey;
+    height: 60px;
+    width: 400px;
+}
+p {
+    height:30px;
+    width:400px;
+    text-align:center;
+}
